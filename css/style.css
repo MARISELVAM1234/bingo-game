@@ -1,8 +1,13 @@
+body{
+    background-color:rgb(37, 37, 38) ;
+}
 #head , #head2 {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
     font-weight: 800;
+    /* color: rgb(255, 72, 0); */
+    color: white;
 }
 
 .box {
@@ -15,21 +20,33 @@
     padding: 24px 20px;
      text-align: center;
    font-size: 25px;
-   color:#ED2647;
+   /* color:#ED2647; */
+   color: #fa7e1e;
+   color: white;
 }
-#box-item {
-    border: 1px solid black;
-    background-color: limegreen;
+.box-item {
+    border: 1px solid white;
+    /* background-color: limegreen; */
+    background: rgba(255, 255, 255 , 0.2);
     width: 140px;
 }
 
  .btn-part{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
 }
 
  .btn-part button {
     height: 50px;
     width: 150px;
+}
+
+#btn1  , #btn2{
+    border-color: white;
+    margin-right: 50px;
+    background-color:#fa7e1e;
+color: rgb(255, 255, 255  );
+border-radius: 24px;
+width: 170px;
 }
